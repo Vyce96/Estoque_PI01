@@ -26,9 +26,9 @@ const StockEditModal = ({ onClose, productToEdit }: Props) => {
   }, [productToEdit]);
 
   const parseDateFromLocale = (dateString: string): Date | "" => {
-    const [day, month, year] = dateString.split("/").map(Number); // Divide a string no formato DD/MM/YYYY
-    if (!day || !month || !year) return ""; // Retorna string vazia se os valores não forem válidos
-    return new Date(year, month - 1, day); // Cria o objeto Date (mês começa em 0)
+    const [day, month, year] = dateString.split("/").map(Number);
+    if (!day || !month || !year) return "";
+    return new Date(year, month - 1, day);
   };
 
   const handleSave = async () => {
@@ -73,7 +73,7 @@ const StockEditModal = ({ onClose, productToEdit }: Props) => {
     <div className="modal-bg">
       <div className="modal-container">
         <div className="modal-header">
-          <h1>Adicionar produto</h1>
+          <h1>Editar produto</h1>
           <div onClick={() => onClose()} className="close-modal">
             <svg
               xmlns="http://www.w3.org/2000/svg"

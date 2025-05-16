@@ -12,7 +12,7 @@
 }
 
 .navbar-left {
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -20,7 +20,7 @@
 
 .navbrand-semibold {
   color: var(--neutral-black);
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -35,7 +35,7 @@
 .navbar-right,
 .exit-button {
   border: none;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   cursor: pointer;
   border-radius: 4px;
 }

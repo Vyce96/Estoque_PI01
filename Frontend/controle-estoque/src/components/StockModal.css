@@ -34,14 +34,14 @@
 }
 
 .input-group label {
-  font-size: 24px;
+  font-size: 1rem;
   color: var(--neutral-dark);
   margin-bottom: 16px;
 }
 
 .input-group .input-modal {
   padding: 8px;
-  font-size: 24px;
+  font-size: 1rem;
   border: 1px solid var(--neutral-dark);
   border-radius: 8px;
   margin-bottom: 24px;
